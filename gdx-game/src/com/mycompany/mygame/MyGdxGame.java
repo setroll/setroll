@@ -3,12 +3,15 @@ package com.mycompany.mygame;
 import com.badlogic.gdx.*;
 import com.badlogic.gdx.graphics.*;
 import com.badlogic.gdx.graphics.g2d.*;
+import java.util.Vector;
 
 public class MyGdxGame implements ApplicationListener
 {
-	Texture texture;
+	Texture texture; 
+	Texture head; 
+	Texture apple;
 	SpriteBatch batch;
-
+Vector gg;
 	@Override
 	public void create()
 	{
