@@ -17,10 +17,6 @@ import com.badlogic.gdx.graphics.g3d.Material;
 import com.badlogic.gdx.graphics.g3d.utils.ModelBuilder;
 import com.badlogic.gdx.graphics.g3d.utils.CameraInputController;
 
-/**
- * See: http://blog.xoppa.com/basic-3d-using-libgdx-2/
- * @author Xoppa
- */
 public class MyGdxGame implements ApplicationListener { 
 	public Environment enviroment;
 	public PerspectiveCamera cam;
